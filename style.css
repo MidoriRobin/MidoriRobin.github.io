@@ -1,0 +1,21 @@
+div{
+	display: grid;
+	grid-template-columns: 150px 150px 150px;
+	grid-template-rows: 150px 150px;
+	grid-gap: 20px;
+}
+.leadIn{
+	background: blue;
+	grid-column: 1/4;
+	grid-row: 1;
+}
+
+.contact{
+	grid-column: 1;
+	grid-row: 2/3;
+}
+
+.about{
+	grid-column:2/4;
+	grid-row:2/3;
+}
