@@ -3,7 +3,7 @@ body{
 	grid-template-columns: 350px 350px 350px;
 	grid-template-rows: 200px 400px 400px;
 	grid-gap: 20px;
-	background: black;
+	background: #BDC667;
 	margin:20px;
 	padding: 20px;
 }
@@ -21,7 +21,7 @@ p{
 }
 
 .leadIn{
-	background: green;
+	background: #355834;
 	grid-column: 1/4;
 	grid-row: 1;
 	display: flex;
@@ -38,14 +38,14 @@ p{
 	padding-left: 2px;
 	padding-right: 5px;	
 	flex-direction: column;
-	background: lightblue;
+	background: #8ED081;
 	grid-column: 1;
 	grid-row: 2/4;
 	
 }
 
 .about{
-	background: red;
+	background: #77966D;
 	grid-column: 2/4;
 	grid-row: 2/4;
 	display: flex;
@@ -58,10 +58,13 @@ img{
 
 }
 
-.leadIn h1{
-	border: 3px solid white;
-}
+head{
+	box-sizing: border-box;}
 
 .contact div{
 
+}
+
+p.contact{
+	font-size: 12px;
 }
