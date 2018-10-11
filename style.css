@@ -1,7 +1,7 @@
 body{
 	display: grid;
 	grid-template-columns: 350px 350px 350px;
-	grid-template-rows: 200px 400px 400px;
+	grid-template-rows: 200px 500px 500px;
 	grid-gap: 20px;
 	background: #FFFFFF;
 	margin:20px auto auto 110px;
@@ -33,7 +33,7 @@ p{
 
 }
 
-.contact{
+.addr{
 	display: flex;
 	margin-left: 100px;
 	margin-right: 5px;
@@ -47,7 +47,6 @@ p{
 }
 
 .about{
-	/*background: #77966D;*/
 	grid-column: 2/4;
 	grid-row: 2/4;
 	display: flex;
@@ -58,7 +57,8 @@ img{
 	display: flex;
 	transform: rotate(90deg);
 	border-radius: 50%;	
-
+	margin-left: 25px;
+	margin-top: 25px;
 }
 
 head{
@@ -67,16 +67,16 @@ head{
 	
 }
 
-.contact div{
+.addr div{
 
 }
 
-p.contact{
+p.addr{
 	font-size: 12px;
 }
 
 .bio{
-	display:
+	display: ;
 	border-bottom: 2px dotted #C3C3C3;
 	margin: 5px;
 	padding: 20px;
@@ -86,8 +86,7 @@ p.contact{
 	border-bottom: 2px dotted #C3C3C3;
 	margin: 5px;
 	padding: 20px;
-	display: grid;
-	/*grid-template-areas: "";*/
+	
 }
 
 .e-exp{
@@ -99,4 +98,65 @@ p.contact{
 .s-exp{
 	margin: 5px;
 	padding: 20px;
+}
+
+section{
+	display: grid;
+	grid-gap: 10px;
+	
+}
+
+.date{
+	grid-area: date;
+}
+
+.job{
+	grid-area: position;
+}
+
+.desc{
+	grid-area: desc;
+}
+
+.cont{
+	margin-left: 20px;
+	border-bottom: 1px solid black;
+		
+}
+
+.social{
+	margin-left: 25px;
+}
+
+.addr p{
+	font-size: 12px;
+	font-family: arial;
+}
+
+.leadIn section{
+	border: 2px solid white;
+	
+}
+
+.leadIn h1{
+	display: flex;
+	justify-content: center;
+	flex-items: center;
+	font-family: Angsana New, San serif, TimesNewRoman;
+	font-size:25px;
+}
+
+.leadIn p{
+	margin-left: 13px;
+	margin-right: 10px;
+}
+
+.about section{
+	display: grid;
+	grid-gap: 5px;
+	grid-template-areas: "date position"
+						 "1  desc";
+	grid-template-columns: 200px 500px;
+	grid-template-rows: 30px 30px;
+	
 }
